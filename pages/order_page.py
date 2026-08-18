@@ -2,7 +2,6 @@ import allure
 from pages.base_page import BasePage
 from locators.order_page_locators import OrderPageLocators
 
-
 class OrderPage(BasePage):
     @allure.step("Заполнить поле Имя")
     def set_name(self, name: str):
