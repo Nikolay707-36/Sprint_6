@@ -3,7 +3,6 @@ from pages.base_page import BasePage
 from urls import Urls
 import allure
 
-
 class MainPage(BasePage):
     @allure.step("Клик по верхней кнопке заказа")
     def click_top_order_btn(self):
