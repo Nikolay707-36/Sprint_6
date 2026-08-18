@@ -5,7 +5,6 @@ class OrderData:
         ("Илья", "Илиев", "Киевское шоссе, 1, 7", "Баррикадная", "+79307358112", "22", "трое суток"),
     ]
 
-
 class FAQData:
     param = "number, expected_answer"
     value = [

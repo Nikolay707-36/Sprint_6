@@ -5,7 +5,6 @@ from data import FAQData
 from pages.main_page import MainPage
 from urls import Urls
 
-
 @allure.feature("FAQ")
 class TestFAQ:
     @allure.title("Проверка ответа на вопрос #{number}")

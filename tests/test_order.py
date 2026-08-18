@@ -6,7 +6,6 @@ from pages.order_page import OrderPage
 from pages.main_page import MainPage
 from urls import Urls
 
-
 @allure.feature("Заказы")
 class TestOrder:
     @allure.title("Проверка верхней кнопки заказа")

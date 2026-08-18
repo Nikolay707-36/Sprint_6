@@ -1,6 +1,5 @@
 from selenium.webdriver.common.by import By
 
-
 class OrderPageLocators:
     NAME_INPUT = By.XPATH, "//input[@placeholder='* Имя']"
     LASTNAME_INPUT = By.XPATH, "//input[@placeholder='* Фамилия']"
